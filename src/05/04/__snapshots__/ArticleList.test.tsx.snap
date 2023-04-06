@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: items の数だけ一覧表示される 1`] = `
+<div>
+  <div>
+    <h2>
+      記事一覧
+    </h2>
+    <ul>
+      <li>
+        <h3>
+          TypeScript を使ったテストの書き方
+        </h3>
+        <p>
+          テストを書く時、TypeScript を使うことで、テストの保守性が向上します…
+        </p>
+        <a
+          href="/articles/howto-testing-with-typescript"
+        >
+          もっと見る
+        </a>
+      </li>
+      <li>
+        <h3>
+          Next.js の Link コンポーネント
+        </h3>
+        <p>
+          Next.js の画面遷移には、Link コンポーネントを使用します…
+        </p>
+        <a
+          href="/articles/nextjs-link-component"
+        >
+          もっと見る
+        </a>
+      </li>
+      <li>
+        <h3>
+          Jest ではじめる React のコンポーネントテスト
+        </h3>
+        <p>
+          Jest は単体テストとして、UIコンポーネントのテストが可能です…
+        </p>
+        <a
+          href="/articles/react-component-testing-with-jest"
+        >
+          もっと見る
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

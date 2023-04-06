@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: 利用規約の同意が表示される 1`] = `
+<div>
+  <fieldset>
+    <legend>
+      利用規約の同意
+    </legend>
+    <label>
+      <input
+        type="checkbox"
+      />
+      当サービスの
+      <a
+        href="/terms"
+      >
+        利用規約
+      </a>
+      を確認し、これに同意します
+    </label>
+  </fieldset>
+</div>
+`;

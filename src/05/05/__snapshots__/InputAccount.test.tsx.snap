@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: アカウント情報の入力フォームが表示される 1`] = `
+<div>
+  <fieldset>
+    <legend>
+      アカウント情報の入力
+    </legend>
+    <div>
+      <label>
+        メールアドレス
+        <input
+          placeholder="example@test.com"
+          type="text"
+        />
+      </label>
+    </div>
+    <div>
+      <label>
+        パスワード
+        <input
+          placeholder="8文字以上で入力"
+          type="password"
+        />
+      </label>
+    </div>
+  </fieldset>
+</div>
+`;

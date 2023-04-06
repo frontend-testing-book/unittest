@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: 登録フォームが表示される 1`] = `
+<div>
+  <div>
+    <form>
+      <h2>
+        お届け先情報の入力
+      </h2>
+      <fieldset>
+        <legend>
+          連絡先
+        </legend>
+        <div>
+          <label>
+            電話番号
+            <input
+              name="phoneNumber"
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            お名前
+            <input
+              name="name"
+              type="text"
+            />
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          お届け先
+        </legend>
+        <div>
+          <label>
+            郵便番号
+            <input
+              name="postalCode"
+              placeholder="167-0051"
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            都道府県
+            <input
+              name="prefectures"
+              placeholder="東京都"
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            市区町村
+            <input
+              name="municipalities"
+              placeholder="杉並区荻窪1"
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            番地番号
+            <input
+              name="streetNumber"
+              placeholder="00-00"
+              type="text"
+            />
+          </label>
+        </div>
+      </fieldset>
+      <hr />
+      <div>
+        <button>
+          注文内容の確認へ進む
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

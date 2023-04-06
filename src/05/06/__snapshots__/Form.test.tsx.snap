@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`過去のお届け先がある場合 Snapshot 1`] = `
+<div>
+  <form>
+    <h2>
+      お届け先情報の入力
+    </h2>
+    <fieldset>
+      <legend>
+        連絡先
+      </legend>
+      <div>
+        <label>
+          電話番号
+          <input
+            name="phoneNumber"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          お名前
+          <input
+            name="name"
+            type="text"
+          />
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        新しいお届け先を登録しますか？
+      </legend>
+      <label>
+        <input
+          name="registerDeliveryAddress"
+          type="radio"
+          value="0"
+        />
+        いいえ
+      </label>
+      <label>
+        <input
+          name="registerDeliveryAddress"
+          type="radio"
+          value="1"
+        />
+        はい
+      </label>
+    </fieldset>
+    <fieldset
+      disabled=""
+      style="opacity: 0.3;"
+    >
+      <legend>
+        過去のお届け先
+      </legend>
+      <select
+        name="pastDeliveryAddress"
+      >
+        <option
+          value="address_id_xxxx"
+        >
+          〒167-0051 東京都杉並区荻窪1-00-00
+        </option>
+      </select>
+    </fieldset>
+    <hr />
+    <div>
+      <button>
+        注文内容の確認へ進む
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`過去のお届け先がない場合 Snapshot 1`] = `
+<div>
+  <form>
+    <h2>
+      お届け先情報の入力
+    </h2>
+    <fieldset>
+      <legend>
+        連絡先
+      </legend>
+      <div>
+        <label>
+          電話番号
+          <input
+            name="phoneNumber"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          お名前
+          <input
+            name="name"
+            type="text"
+          />
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        お届け先
+      </legend>
+      <div>
+        <label>
+          郵便番号
+          <input
+            name="postalCode"
+            placeholder="167-0051"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          都道府県
+          <input
+            name="prefectures"
+            placeholder="東京都"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          市区町村
+          <input
+            name="municipalities"
+            placeholder="杉並区荻窪1"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          番地番号
+          <input
+            name="streetNumber"
+            placeholder="00-00"
+            type="text"
+          />
+        </label>
+      </div>
+    </fieldset>
+    <hr />
+    <div>
+      <button>
+        注文内容の確認へ進む
+      </button>
+    </div>
+  </form>
+</div>
+`;

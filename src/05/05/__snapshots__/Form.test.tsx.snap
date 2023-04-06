@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot: 新規アカウント登録フォームが表示される 1`] = `
+<div>
+  <form
+    aria-labelledby=":r4:"
+  >
+    <h2
+      id=":r4:"
+    >
+      新規アカウント登録
+    </h2>
+    <fieldset>
+      <legend>
+        アカウント情報の入力
+      </legend>
+      <div>
+        <label>
+          メールアドレス
+          <input
+            placeholder="example@test.com"
+            type="text"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          パスワード
+          <input
+            placeholder="8文字以上で入力"
+            type="password"
+          />
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        利用規約の同意
+      </legend>
+      <label>
+        <input
+          type="checkbox"
+        />
+        当サービスの
+        <a
+          href="/terms"
+        >
+          利用規約
+        </a>
+        を確認し、これに同意します
+      </label>
+    </fieldset>
+    <div>
+      <button
+        disabled=""
+      >
+        サインアップ
+      </button>
+    </div>
+  </form>
+</div>
+`;
