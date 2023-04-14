@@ -1,16 +1,14 @@
 {
-  "name": "standalone",
+  "name": "frontend-testing-book-unittest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
