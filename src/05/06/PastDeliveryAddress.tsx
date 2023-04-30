@@ -1,4 +1,5 @@
 import { AddressOption } from "./Form";
+import { Heading } from "./Heading";
 
 export const PastDeliveryAddress = ({
   disabled,
@@ -9,7 +10,7 @@ export const PastDeliveryAddress = ({
 }) => {
   return (
     <fieldset disabled={disabled} style={{ opacity: disabled ? 0.3 : 1 }}>
-      <legend>過去のお届け先</legend>
+      <Heading>過去のお届け先</Heading>
       <select name="pastDeliveryAddress">
         {options.map(({ id, ...opt }) => (
           <option key={id} {...opt} />

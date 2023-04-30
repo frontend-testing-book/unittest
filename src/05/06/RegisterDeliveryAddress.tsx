@@ -1,9 +1,11 @@
+import { Heading } from "./Heading";
+
 type Props = { onChange: (flag: boolean) => void };
 
 export const RegisterDeliveryAddress = ({ onChange }: Props) => {
   return (
     <fieldset>
-      <legend>新しいお届け先を登録しますか？</legend>
+      <Heading>新しいお届け先を登録しますか？</Heading>
       <label>
         <input
           type="radio"
