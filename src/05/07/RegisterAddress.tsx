@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Form } from "../06/Form";
 import { postMyAddress } from "./fetchers";
 import { handleSubmit } from "./handleSubmit";
-import { checkPhoneNumber, ValidationError } from "./valiadtions";
+import { checkPhoneNumber, ValidationError } from "./validations";
 
 export const RegisterAddress = () => {
   const [postResult, setPostResult] = useState("");
