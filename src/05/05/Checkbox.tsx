@@ -16,7 +16,7 @@ export const Checkbox = ({ name, defaultChecked = false, onChange }: Props) => {
         checked={checked}
         style={{ display: "none" }}
         onChange={() => {
-          onChange?.(!checked);
+          onChange?.(checked);
         }}
       />
       <span
