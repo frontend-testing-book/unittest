@@ -8,9 +8,11 @@ exports[`Snapshot: 登録フォームが表示される 1`] = `
         お届け先情報の入力
       </h2>
       <fieldset>
-        <legend>
+        <h3
+          style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+        >
           連絡先
-        </legend>
+        </h3>
         <div>
           <label>
             電話番号
@@ -31,9 +33,11 @@ exports[`Snapshot: 登録フォームが表示される 1`] = `
         </div>
       </fieldset>
       <fieldset>
-        <legend>
+        <h3
+          style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+        >
           お届け先
-        </legend>
+        </h3>
         <div>
           <label>
             郵便番号

@@ -7,9 +7,11 @@ exports[`過去のお届け先がある場合 Snapshot 1`] = `
       お届け先情報の入力
     </h2>
     <fieldset>
-      <legend>
+      <h3
+        style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+      >
         連絡先
-      </legend>
+      </h3>
       <div>
         <label>
           電話番号
@@ -30,9 +32,11 @@ exports[`過去のお届け先がある場合 Snapshot 1`] = `
       </div>
     </fieldset>
     <fieldset>
-      <legend>
+      <h3
+        style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+      >
         新しいお届け先を登録しますか？
-      </legend>
+      </h3>
       <label>
         <input
           name="registerDeliveryAddress"
@@ -54,9 +58,11 @@ exports[`過去のお届け先がある場合 Snapshot 1`] = `
       disabled=""
       style="opacity: 0.3;"
     >
-      <legend>
+      <h3
+        style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+      >
         過去のお届け先
-      </legend>
+      </h3>
       <select
         name="pastDeliveryAddress"
       >
@@ -84,9 +90,11 @@ exports[`過去のお届け先がない場合 Snapshot 1`] = `
       お届け先情報の入力
     </h2>
     <fieldset>
-      <legend>
+      <h3
+        style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+      >
         連絡先
-      </legend>
+      </h3>
       <div>
         <label>
           電話番号
@@ -107,9 +115,11 @@ exports[`過去のお届け先がない場合 Snapshot 1`] = `
       </div>
     </fieldset>
     <fieldset>
-      <legend>
+      <h3
+        style="margin: 0px 0px 8px 0px; padding: 8px 0px 8px 0px; border-bottom: 1px solid #ccc;"
+      >
         お届け先
-      </legend>
+      </h3>
       <div>
         <label>
           郵便番号

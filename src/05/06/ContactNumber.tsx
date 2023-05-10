@@ -1,7 +1,9 @@
+import { Heading } from "./Heading";
+
 export const ContactNumber = () => {
   return (
     <fieldset>
-      <legend>連絡先</legend>
+      <Heading>連絡先</Heading>
       <div>
         <label>
           電話番号
