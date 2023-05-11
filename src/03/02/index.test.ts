@@ -8,6 +8,9 @@ describe("四則演算", () => {
     test("1 + 2 は 3", () => {
       expect(add(1, 2)).toBe(3);
     });
+    test("1 + 80 は 81", () => {
+      expect(add(1, 80)).toBe(81);
+    })
   });
   describe("sub", () => {
     test("1 - 1 は 0", () => {
