@@ -13,6 +13,7 @@ describe("四則演算", () => {
       expect(() => add(-10, 10)).toThrow(message);
       expect(() => add(10, -10)).toThrow(message);
       expect(() => add(-10, 110)).toThrow(message);
+      expect(() => add(-1, 99)).toThrow(message);
     });
   });
   describe("sub", () => {
