@@ -10,8 +10,9 @@ describe("getGreet", () => {
     jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
       id: "xxxxxxx-123456",
       email: "taroyamada@myapi.testing.com",
+      name: "asano",
     });
-    await expect(getGreet()).resolves.toBe("Hello, anonymous user!");
+    await expect(getGreet()).resolves.toBe("Hello, asano!");
   });
   test("データ取得成功時：ユーザー名がある場合", async () => {
     jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
