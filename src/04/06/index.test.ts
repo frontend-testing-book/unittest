@@ -37,7 +37,7 @@ function inputFactory(input?: Partial<ArticleInput>) {
 test("バリデーションに成功した場合、成功レスポンスが返る", async () => {
   // バリデーションに通過する入力値を用意
   const input = inputFactory();
-  // 入力値を含んだ成功レスポンスが返るよう、モック
+  // 入力値を含んだ成功レスポンスが返るよう、モックを施す
   const mock = mockPostMyArticle(input);
   // テスト対象の関数に、input を与えて実行
   const data = await postMyArticle(input);
@@ -51,7 +51,7 @@ test("バリデーションに失敗した場合、reject される", async () =
   expect.assertions(2);
   // バリデーションに通過しない入力値を用意
   const input = inputFactory({ title: "", body: "" });
-  // 入力値を含んだ成功レスポンスが返るよう、モック
+  // 入力値を含んだ成功レスポンスが返るよう、モックを施す
   const mock = mockPostMyArticle(input);
   // バリデーションに通過せず reject されるかを検証
   await postMyArticle(input).catch((err) => {
@@ -66,7 +66,7 @@ test("データ取得に失敗した場合、reject される", async () => {
   expect.assertions(2);
   // バリデーションに通過する入力値を用意
   const input = inputFactory();
-  // 失敗レスポンスが返るようモック
+  // 失敗レスポンスが返るようモックを施す
   const mock = mockPostMyArticle(input, 500);
   // reject されるかを検証
   await postMyArticle(input).catch((err) => {
