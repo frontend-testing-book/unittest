@@ -1,5 +1,7 @@
+import { Checkbox } from "./Checkbox";
+
 type Props = {
-  onChange?: React.ChangeEventHandler<HTMLInputElement>;
+  onChange?: (checked: boolean) => void;
 };
 
 export const Agreement = ({ onChange }: Props) => {
@@ -7,7 +9,7 @@ export const Agreement = ({ onChange }: Props) => {
     <fieldset>
       <legend>利用規約の同意</legend>
       <label>
-        <input type="checkbox" onChange={onChange} />
+        <Checkbox name="agree" onChange={onChange} />
         当サービスの<a href="/terms">利用規約</a>を確認し、これに同意します
       </label>
     </fieldset>

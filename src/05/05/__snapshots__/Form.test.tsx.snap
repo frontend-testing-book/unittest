@@ -38,9 +38,18 @@ exports[`Snapshot: 新規アカウント登録フォームが表示される 1`]
         利用規約の同意
       </legend>
       <label>
-        <input
-          type="checkbox"
-        />
+        <span>
+          <input
+            name="agree"
+            style="display: none;"
+            type="checkbox"
+          />
+          <span
+            style="display: inline-block; text-align: center; width: 24px; height: 24px; border-radius: 4px; cursor: pointer; color: rgb(255, 255, 255); background-color: rgb(204, 204, 204);"
+          >
+            ✔︎
+          </span>
+        </span>
         当サービスの
         <a
           href="/terms"
