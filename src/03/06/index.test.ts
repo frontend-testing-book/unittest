@@ -32,7 +32,7 @@ describe("数値の検証", () => {
   });
   test("検証値 は 期待値 より大きい", () => {
     expect(value).toBeGreaterThan(3); // 4 > 3
-    expect(value).toBeGreaterThanOrEqual(4); // 4 >= 3
+    expect(value).toBeGreaterThanOrEqual(4); // 4 >= 4
   });
   test("検証値 は 期待値 より小さい", () => {
     expect(value).toBeLessThan(5); // 4 < 5
