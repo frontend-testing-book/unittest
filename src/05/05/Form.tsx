@@ -9,11 +9,7 @@ export const Form = () => {
     <form aria-labelledby={headingId}>
       <h2 id={headingId}>新規アカウント登録</h2>
       <InputAccount />
-      <Agreement
-        onChange={(event) => {
-          setChecked(event.currentTarget.checked);
-        }}
-      />
+      <Agreement onChange={setChecked} />
       <div>
         <button disabled={!checked}>サインアップ</button>
       </div>
