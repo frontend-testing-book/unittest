@@ -1,7 +1,9 @@
+import { Heading } from "./Heading";
+
 export const DeliveryAddress = ({ title = "お届け先" }: { title?: string }) => {
   return (
     <fieldset>
-      <legend>{title}</legend>
+      <Heading>{title}</Heading>
       <div>
         <label>
           郵便番号
