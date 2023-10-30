@@ -6,6 +6,16 @@ describe('四則演算', () => {
       expect(add(50, 50)).toBe(100))
 
     test("合計の上限は、'100'である", () => expect(add(70, 80)).toBe(100))
+
+    test('第一引数の入力値は0〜100の範囲である', () => {
+      expect(() => add(-1, 0)).toThrow()
+      expect(() => add(101, 0)).toThrow()
+    })
+
+    test('第二引数の入力値は0〜100の範囲である', () => {
+      expect(() => add(0, -1)).toThrow()
+      expect(() => add(0, 101)).toThrow()
+    })
   })
 
   describe('sub', () => {
