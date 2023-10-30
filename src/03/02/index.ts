@@ -7,5 +7,9 @@ export function add(a: number, b: number) {
 }
 
 export function sub(a: number, b: number) {
-  return a - b
+  const sum = a - b
+
+  if (sum < 0) return 0
+
+  return sum
 }

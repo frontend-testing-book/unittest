@@ -9,8 +9,9 @@ describe('四則演算', () => {
   })
 
   describe('sub', () => {
-    test('1 - 1 は 0', () => expect(sub(1, 1)).toBe(0))
+    test('返り値の合計は第一引数と代二引数の「差」である', () =>
+      expect(sub(51, 50)).toBe(1))
 
-    test('2 - 1 は 1', () => expect(sub(2, 1)).toBe(1))
+    test("返り値の合計は、下限が'0'である", () => expect(sub(70, 80)).toBe(0))
   })
 })
