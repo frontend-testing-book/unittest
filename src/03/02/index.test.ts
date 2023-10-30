@@ -2,9 +2,10 @@ import { add, sub } from '.'
 
 describe('四則演算', () => {
   describe('add', () => {
-    test('1 + 1 は 2', () => expect(add(1, 1)).toBe(2))
+    test('返り値は、第一引数と代二引数の「和」である', () =>
+      expect(add(50, 50)).toBe(100))
 
-    test('1 + 2 は 3', () => expect(add(1, 2)).toBe(3))
+    test("合計の上限は、'100'である", () => expect(add(70, 80)).toBe(100))
   })
 
   describe('sub', () => {
