@@ -15,6 +15,9 @@ export const add = (a: number, b: number) => {
 }
 
 export const sub = (a: number, b: number) => {
+  checkRange(a)
+  checkRange(b)
+
   const sum = a - b
 
   if (sum < 0) return 0

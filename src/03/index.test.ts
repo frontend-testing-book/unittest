@@ -26,5 +26,18 @@ describe('四則演算', () => {
       expect(sub(51, 50)).toBe(1))
 
     test("返り値の合計は、下限が'0'である", () => expect(sub(70, 80)).toBe(0))
+
+    test('スローされる例外がRangeErrorである', () =>
+      expect(() => sub(-1, 0)).toThrow(RangeError))
+
+    test('第一引数の入力値は0〜100の範囲である', () => {
+      expect(() => sub(-1, 0)).toThrow('入力値は0〜100の間で入力してください')
+      expect(() => sub(101, 0)).toThrow('入力値は0〜100の間で入力してください')
+    })
+
+    test('第二引数の入力値は0〜100の範囲である', () => {
+      expect(() => sub(0, -1)).toThrow('入力値は0〜100の間で入力してください')
+      expect(() => sub(0, 101)).toThrow('入力値は0〜100の間で入力してください')
+    })
   })
 })
