@@ -1,10 +1,11 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { Agreement } from "./Agreement";
+import type { ComponentMeta, ComponentStoryObj } from '@storybook/react'
+
+import { Agreement } from './Agreement'
 
 export default {
   component: Agreement,
-} as ComponentMeta<typeof Agreement>;
+} as ComponentMeta<typeof Agreement>
 
-type Story = ComponentStoryObj<typeof Agreement>;
+type Story = ComponentStoryObj<typeof Agreement>
 
-export const Default: Story = {};
+export const Default: Story = {}

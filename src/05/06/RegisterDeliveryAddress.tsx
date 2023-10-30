@@ -1,4 +1,4 @@
-type Props = { onChange: (flag: boolean) => void };
+type Props = { onChange: (flag: boolean) => void }
 
 export const RegisterDeliveryAddress = ({ onChange }: Props) => {
   return (
@@ -10,7 +10,7 @@ export const RegisterDeliveryAddress = ({ onChange }: Props) => {
           name="registerDeliveryAddress"
           value={0}
           onChange={() => {
-            onChange(false);
+            onChange(false)
           }}
         />
         いいえ
@@ -21,11 +21,11 @@ export const RegisterDeliveryAddress = ({ onChange }: Props) => {
           name="registerDeliveryAddress"
           value={1}
           onChange={() => {
-            onChange(true);
+            onChange(true)
           }}
         />
         はい
       </label>
     </fieldset>
-  );
-};
+  )
+}

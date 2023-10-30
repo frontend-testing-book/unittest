@@ -1,6 +1,6 @@
 type Props = {
-  onChange?: React.ChangeEventHandler<HTMLInputElement>;
-};
+  onChange?: React.ChangeEventHandler<HTMLInputElement>
+}
 
 export const Agreement = ({ onChange }: Props) => {
   return (
@@ -11,5 +11,5 @@ export const Agreement = ({ onChange }: Props) => {
         当サービスの<a href="/terms">利用規約</a>を確認し、これに同意します
       </label>
     </fieldset>
-  );
-};
+  )
+}

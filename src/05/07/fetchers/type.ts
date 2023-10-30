@@ -1,7 +1,7 @@
 export type HttpError = {
-  err: { message: string };
-};
+  err: { message: string }
+}
 
 export type Result = {
-  result: string;
-};
+  result: string
+}

@@ -15,5 +15,5 @@ export const InputAccount = () => {
         </label>
       </div>
     </fieldset>
-  );
-};
+  )
+}

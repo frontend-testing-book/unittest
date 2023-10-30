@@ -1,11 +1,11 @@
-import { AddressOption } from "./Form";
+import type { AddressOption } from './Form'
 
 export const PastDeliveryAddress = ({
   disabled,
   options,
 }: {
-  disabled?: boolean;
-  options: AddressOption[];
+  disabled?: boolean
+  options: AddressOption[]
 }) => {
   return (
     <fieldset disabled={disabled} style={{ opacity: disabled ? 0.3 : 1 }}>
@@ -16,5 +16,5 @@ export const PastDeliveryAddress = ({
         ))}
       </select>
     </fieldset>
-  );
-};
+  )
+}

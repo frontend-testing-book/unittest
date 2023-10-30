@@ -15,5 +15,5 @@ export const ContactNumber = () => {
         </label>
       </div>
     </fieldset>
-  );
-};
+  )
+}

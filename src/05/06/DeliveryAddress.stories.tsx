@@ -1,10 +1,11 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { DeliveryAddress } from "./DeliveryAddress";
+import type { ComponentMeta, ComponentStoryObj } from '@storybook/react'
+
+import { DeliveryAddress } from './DeliveryAddress'
 
 export default {
   component: DeliveryAddress,
-} as ComponentMeta<typeof DeliveryAddress>;
+} as ComponentMeta<typeof DeliveryAddress>
 
-type Story = ComponentStoryObj<typeof DeliveryAddress>;
+type Story = ComponentStoryObj<typeof DeliveryAddress>
 
-export const Default: Story = {};
+export const Default: Story = {}

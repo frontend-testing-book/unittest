@@ -1,10 +1,10 @@
 type Props = {
-  items: { id: number; title: string }[];
-  isLoading?: boolean;
-};
+  items: { id: number; title: string }[]
+  isLoading?: boolean
+}
 export const Articles = ({ items, isLoading }: Props) => {
   if (isLoading) {
-    return <p>...loading</p>;
+    return <p>...loading</p>
   }
   return (
     <div>
@@ -21,5 +21,5 @@ export const Articles = ({ items, isLoading }: Props) => {
         <p>投稿記事がありません</p>
       )}
     </div>
-  );
-};
+  )
+}

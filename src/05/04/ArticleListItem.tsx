@@ -1,8 +1,8 @@
 export type ItemProps = {
-  id: string;
-  title: string;
-  body: string;
-};
+  id: string
+  title: string
+  body: string
+}
 
 export const ArticleListItem = ({ id, title, body }: ItemProps) => {
   return (
@@ -11,5 +11,5 @@ export const ArticleListItem = ({ id, title, body }: ItemProps) => {
       <p>{body}</p>
       <a href={`/articles/${id}`}>もっと見る</a>
     </li>
-  );
-};
+  )
+}

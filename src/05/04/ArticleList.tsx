@@ -1,8 +1,9 @@
-import { ArticleListItem, ItemProps } from "./ArticleListItem";
+import type { ItemProps } from './ArticleListItem'
+import { ArticleListItem } from './ArticleListItem'
 
 type Props = {
-  items: ItemProps[];
-};
+  items: ItemProps[]
+}
 
 export const ArticleList = ({ items }: Props) => {
   return (
@@ -18,5 +19,5 @@ export const ArticleList = ({ items }: Props) => {
         <p>投稿記事がありません</p>
       )}
     </div>
-  );
-};
+  )
+}
